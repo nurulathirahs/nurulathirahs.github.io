@@ -3,360 +3,101 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nurul Athirah | IT Consultant</title>
+<title>Nurul Athirah Suliman</title>
 
 <style>
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    scroll-behavior:smooth;
+    font-family:Arial,sans-serif;
 }
 
 body{
-    font-family:'Segoe UI',sans-serif;
-    background:#0f0f0f;
-    color:#fff;
-}
-
-nav{
-    position:fixed;
-    width:100%;
-    top:0;
     background:#111;
-    padding:15px;
-    text-align:center;
-    z-index:1000;
-    box-shadow:0 2px 10px rgba(0,0,0,0.4);
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:600;
-}
-
-nav a:hover{
-    color:#ff4fa3;
-}
-
-header{
+    color:#fff;
     min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    text-align:center;
     padding:20px;
-    background:linear-gradient(135deg,#0f0f0f,#161616,#22111b);
-}
-
-.hero{
-    max-width:800px;
-}
-
-.profile-pic{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    object-fit:cover;
-    border:4px solid #ff4fa3;
-    margin-bottom:25px;
-    box-shadow:0 0 25px rgba(255,79,163,0.4);
-}
-
-.hero h1{
-    font-size:3rem;
-    margin-bottom:10px;
-}
-
-.hero span{
-    color:#ff4fa3;
-}
-
-.hero p{
-    color:#bdbdbd;
-    font-size:1.1rem;
-    margin-bottom:25px;
-}
-
-.btn{
-    display:inline-block;
-    background:#ff4fa3;
-    color:white;
-    padding:12px 25px;
-    border-radius:30px;
-    text-decoration:none;
-    margin:5px;
-    transition:.3s;
-}
-
-.btn:hover{
-    transform:translateY(-3px);
-}
-
-section{
-    padding:80px 10%;
-}
-
-.section-title{
-    text-align:center;
-    color:#ff4fa3;
-    font-size:2rem;
-    margin-bottom:40px;
-}
-
-.about{
-    max-width:800px;
-    margin:auto;
-    text-align:center;
-    color:#d6d6d6;
-    line-height:1.8;
-}
-
-.skills,
-.projects{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
 }
 
 .card{
-    background:#181818;
-    padding:25px;
-    border-radius:15px;
-    transition:.3s;
+    width:100%;
+    max-width:700px;
+    background:#1b1b1b;
+    border:1px solid #333;
+    border-radius:16px;
+    padding:40px;
 }
 
-.card:hover{
-    transform:translateY(-5px);
-}
-
-.card h3{
-    color:#ff4fa3;
+h1{
+    font-size:2rem;
     margin-bottom:10px;
 }
 
-.card p{
-    color:#cfcfcf;
+.role{
+    color:#bdbdbd;
+    margin-bottom:25px;
 }
 
-.training-card{
-    max-width:700px;
-    margin:auto;
-    background:#181818;
-    padding:30px;
-    border-radius:15px;
+p{
+    line-height:1.7;
+    color:#d6d6d6;
 }
 
-.training-card h3{
-    color:#ff4fa3;
-    margin-bottom:15px;
+.skills{
+    margin-top:25px;
 }
 
-.training-card ul{
-    margin-left:20px;
-    line-height:2;
+.skill{
+    display:inline-block;
+    padding:8px 14px;
+    margin:5px;
+    border:1px solid #555;
+    border-radius:20px;
 }
 
 .contact{
-    text-align:center;
+    margin-top:30px;
 }
 
-.contact p{
-    margin:10px 0;
-}
-
-.contact a{
-    color:#ff4fa3;
+a{
+    color:white;
     text-decoration:none;
-}
-
-footer{
-    background:#111;
-    text-align:center;
-    padding:20px;
-    color:#888;
-}
-
-@media(max-width:768px){
-
-.hero h1{
-    font-size:2.2rem;
-}
-
-nav a{
-    margin:0 8px;
-    font-size:14px;
-}
-
-.profile-pic{
-    width:140px;
-    height:140px;
-}
 }
 </style>
 </head>
 
 <body>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#training">Training</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
+<div class="card">
 
-<header>
-    <div class="hero">
+<h1>Nurul Athirah Binti Suliman</h1>
 
-        <img src="me.png" alt="Nurul Athirah" class="profile-pic">
+<div class="role">
+IT Consultant
+</div>
 
-        <h1>Hi, I'm <span>Nurul Athirah</span></h1>
+<p>
+A lifelong learner who enjoys exploring data, automation and new technologies.
+Currently building skills in Linux, Git, GitHub, AWS and Power BI.
+</p>
 
-        <p>
-            IT Consultant | Lifelong Learner | Exploring Data, Automation & Technology
-        </p>
+<div class="skills">
+    <span class="skill">Linux</span>
+    <span class="skill">Git</span>
+    <span class="skill">GitHub</span>
+    <span class="skill">AWS</span>
+    <span class="skill">Power BI</span>
+</div>
 
-        <a href="#projects" class="btn">View Projects</a>
+<div class="contact">
+    📧 nurulathirahsuliman@gmail.com
+</div>
 
-        <a href="https://github.com/nurulathirahs" target="_blank" class="btn">
-            GitHub
-        </a>
-
-    </div>
-</header>
-
-<section id="about">
-
-    <h2 class="section-title">About Me</h2>
-
-    <div class="about">
-
-        <p>
-            I am an IT Consultant with a strong interest in technology,
-            cloud computing, automation and data analytics.
-            I enjoy learning new tools and continuously improving my technical skills through hands-on projects and training.
-        </p>
-
-    </div>
-
-</section>
-
-<section id="skills">
-
-    <h2 class="section-title">Technical Skills</h2>
-
-    <div class="skills">
-
-        <div class="card">
-            <h3>Linux</h3>
-            <p>Fundamentals & Command Line Operations</p>
-        </div>
-
-        <div class="card">
-            <h3>Git & GitHub</h3>
-            <p>Version Control & Collaboration</p>
-        </div>
-
-        <div class="card">
-            <h3>AWS</h3>
-            <p>Cloud Fundamentals</p>
-        </div>
-
-        <div class="card">
-            <h3>HTML & CSS</h3>
-            <p>Frontend Development</p>
-        </div>
-
-        <div class="card">
-            <h3>Power BI</h3>
-            <p>Data Visualization</p>
-        </div>
-
-        <div class="card">
-            <h3>SAS</h3>
-            <p>Data Analytics</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="training">
-
-    <h2 class="section-title">Training & Certifications</h2>
-
-    <div class="training-card">
-
-        <h3>Antigravity DevOps Bootcamp</h3>
-
-        <ul>
-            <li>Linux Fundamentals</li>
-            <li>Git & GitHub</li>
-            <li>AWS Basics</li>
-            <li>DevOps Concepts</li>
-            <li>Version Control Workflows</li>
-            <li>Command Line Operations</li>
-        </ul>
-
-    </div>
-
-</section>
-
-<section id="projects">
-
-    <h2 class="section-title">Projects</h2>
-
-    <div class="projects">
-
-        <div class="card">
-            <h3>Personal Portfolio Website</h3>
-            <p>Responsive portfolio website hosted using GitHub Pages.</p>
-        </div>
-
-        <div class="card">
-            <h3>Git & GitHub Practice</h3>
-            <p>Repository management, commits, branching and pull requests.</p>
-        </div>
-
-        <div class="card">
-            <h3>Linux Practice Lab</h3>
-            <p>Hands-on Linux command line and file management exercises.</p>
-        </div>
-
-        <div class="card">
-            <h3>Power BI Dashboard</h3>
-            <p>Interactive dashboard for data visualization and reporting.</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="contact">
-
-    <h2 class="section-title">Contact</h2>
-
-    <div class="contact">
-
-        <p>Email: your-email@example.com</p>
-
-        <p>
-            GitHub:
-            <a href="https://github.com/nurulathirahs" target="_blank">
-                github.com/nurulathirahs
-            </a>
-        </p>
-
-    </div>
-
-</section>
-
-<footer>
-    © 2026 Nurul Athirah Binti Suliman
-</footer>
+</div>
 
 </body>
 </html>
